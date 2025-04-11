@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Configuration de base
 st.set_page_config(page_title="Dashboard Nutrition", layout="wide")
 st.title("🍏 Dashboard Nutrition - Analyse des aliments")
-st.markdown("Groupe de Glodi MIETETE,Destiné BEHONZE, Arnold Boly LEGRE")
+st.markdown("Groupe de Glodi MIETETE,Destiné BEHANZIN, Arnold Boly LEGRE")
 
 # Chargement des données
 df = pd.read_csv("openfoodfacts_nettoyage copie.csv")
